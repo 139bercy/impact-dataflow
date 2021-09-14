@@ -1,0 +1,8 @@
+# MacOS
+.DS_Store
+*.icloud
+
+#Project
+public/
+data/
+
