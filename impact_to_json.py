@@ -34,7 +34,7 @@ def get_liste_points(df_: pd.DataFrame):
             for row in df_.itertuples(index=False)]
 
 
-def get_nom_from_axe_decoupe(axe_decoupe_):
+def get_nom_from_axe_decoupe(axe_decoupe_: txt):
     if "NAF" in axe_decoupe_:
         return "Secteur de l'entreprise"
     elif "type d\'entreprise" in axe_decoupe_:
