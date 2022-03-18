@@ -13,7 +13,7 @@ import datetime as dt
 import re
 
 
-def create_dict_to_replace(df__):
+def create_dict_to_replace(df__: pd.DataFrame):
     """Fonction qui crée un dictionnaire utilisable avec .replace depuis un dataframe."""
     return {df__.iloc[i_, 0]: df__.iloc[i_, 1] for i_ in df__.index}
 
